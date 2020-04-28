@@ -1,0 +1,74 @@
+{
+  "selection": [
+    {
+      "order": 0,
+      "name": "landscape"
+    },
+    {
+      "order": 0,
+      "name": "portrait"
+    }
+  ],
+  "metadata": {
+    "name": "pattern-generator",
+    "importSize": {
+      "width": 1080,
+      "height": 1080
+    },
+    "designer": "mvrikxix",
+    "iconsHash": 1393634888
+  },
+  "height": 1024,
+  "prevSize": 32,
+  "icons": [
+    {
+      "paths": [
+        "M196.807 68.267v887.552h630.386v-887.552zM491.681 592.868l-54.367-83.048-54.338 83.010h-52.148l79.72-113.323-73.169-105.131h51.361l48.602 73.956 48.356-73.956h52.148l-73.766 104.856 79.73 113.598zM688.811 557.606v35.224h-139.539l76.734-122.88h-69.357v-35.224h135.168l-78.364 122.88z"
+      ],
+      "grid": 0,
+      "tags": [
+        "landscape"
+      ]
+    },
+    {
+      "paths": [
+        "M68.267 196.817v630.376h887.467v-630.376zM491.662 592.83l-54.348-83.010-54.338 83.010h-52.148l79.72-113.323-73.169-105.131h51.361l48.602 73.956 48.356-73.956h52.148l-73.766 104.856 79.73 113.598zM688.811 557.606v35.224h-139.539l76.734-122.88h-69.357v-35.224h135.168l-78.364 122.88z"
+      ],
+      "grid": 0,
+      "tags": [
+        "portrait"
+      ]
+    }
+  ],
+  "colorThemes": [],
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  },
+  "IcoMoonType": "icon-set"
+}
