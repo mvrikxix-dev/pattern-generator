@@ -3,6 +3,7 @@
 
 <head lang="en">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <link type="text/css" rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://i.icomoon.io/public/temp/c19dac8c2b/UntitledProject/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -12,13 +13,13 @@
 
 <body>
     <div class="container">
-        <div id="menu">
-            <div class="cancel"><i class="ion-close"></i></div>
+        <div id="menu" class="menu">
+            <div class="cancel cancel-0"><i class="ion-close"></i></div>
             <p id="filename" contenteditable="true" spellcheck="false">Untitled-1</p>
             <p class="label orient-title">Orientation:</p>
             <div id="orient-wrapper">
-                <div class="orient landscape orient-active"><i class="icon-landscape"></i></div>
-                <div class="orient portrait"><i class="icon-portrait"></i></div>
+                <div class="orient landscape orient-active"><i class="icon-portrait"></i></div>
+                <div class="orient portrait"><i class="icon-landscape"></i></div>
                 <div class="orient square"><i class="icon-square"></i></div>
             </div>
             <div id="dimensions">
@@ -32,16 +33,18 @@
                     <input type="text" name="height" id="height-input" class="dimen-input" value="566" onkeypress="return isNumberCheck(event)">
                     <span class="px">px</span>
                 </div>
-            </div>
-            <div class="artboard">
-                <p class="label">Artboards:</p>
-                <input maxlength="1" type="text" id="artboard-input" onkeypress="return isNumberCheck(event)" contenteditable="true" value="0">
-            </div>
 
-            <button id="create">Create</button>
+                <button class="create">Create</button>
+            </div>
         </div>
-        <div id="workspace">
-
+        <div id="workspace" class="menu">
+            <div class="cancel cancel-1"><i class="ion-close"></i></div>
+            <div class="preview">
+                <div class="canvas"></div>
+            </div>
+            <div class="controls">
+                <div class="next-1 next"><i class="ion-chevron-right"></i></div>
+            </div>
         </div>
     </div>
     <script src="app.js"></script>
