@@ -5,16 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <link type="text/css" rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/af27bae4b2/UntitledProject/style.css">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/fbcaa41cee/UntitledProject/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet">
+    <link href="font/fontawesome-free-5.9.0-web/css/all.css" rel="stylesheet">
     <title>PatternQ</title>
 </head>
 
 <body>
     <div class="container">
         <div id="menu" class="menu">
-            <div class="cancel cancel-0"><i class="ion-close"></i></div>
+            <div class="cancel cancel-0"><i class="fas fa-times"></i></div>
             <p id="filename" contenteditable="true" spellcheck="false">Untitled-1</p>
             <p class="label orient-title">Orientation:</p>
             <div id="orient-wrapper">
@@ -38,16 +38,31 @@
             </div>
         </div>
         <div id="workspace" class="menu">
-            <div class="cancel cancel-1"><i class="ion-close"></i></div>
+            <div class="cancel cancel-1"><i class="fas fa-times"></i></div>
             <div class="preview">
                 <div class="canvas"></div>
             </div>
             <div class="controls">
-                <div class="next-1 next"><i class="ion-chevron-right"></i></div>
+                <div class="bg-color">
+                    <p class="label">Background Color:</p>
+                    <div class="color-container">
+                        <div class="add-color color">
+                            <i class="plus">+</i>
+                        </div>
+                        <div class="color" id="color-0"></div>
+                        <div class="color" id="color-1"></div>
+                        <div class="color" id="color-2"></div>
+                        <div class="color" id="color-3"></div>
+                        <div class="color" id="color-4"></div>
+                        <div class="color" id="color-5"></div>
+                    </div>
+                </div>
+                <div class="next-0 next"><i class="fas fa-chevron-right"></i></div>
             </div>
         </div>
     </div>
     <script src="app.js"></script>
+    <script src="workspace.js"></script>
 </body>
 
 </htmL>

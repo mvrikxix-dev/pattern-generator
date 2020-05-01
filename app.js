@@ -6,8 +6,6 @@ var canvas_width = document.getElementById('width-input');
 var canvas_height = document.getElementById('height-input');
 var filename = document.getElementById('filename').textContent;
 var workspace = document.getElementById('workspace');
-var canvas = document.querySelector('.canvas');
-
 
 workspace.style.display = "none";
 
@@ -53,10 +51,4 @@ document.querySelector('.create').addEventListener('click', function () {
     filename = document.getElementById('filename').textContent;
     menu.style.display = "none";
     workspace.style.display = "block";
-    canvas.style.width = canvas_width.value / 8 + "px";
-    canvas.style.height = canvas_height.value / 8 + "px";
-});
-
-document.querySelector('.next-0').addEventListener('click', function () {
-    workspace.style.display = "none";
 });
